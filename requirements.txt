@@ -1,0 +1,9 @@
+absl-py==1.0.0
+pandas==1.4.3
+numpy==1.23.1
+plotly==5.10.0
+streamlit==1.12.0
+matplotlib==3.5.3
+scikit-learn==1.1.2
+sqlalchemy==1.4.40
+tensorflow==2.9.1
