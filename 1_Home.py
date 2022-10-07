@@ -4,7 +4,7 @@ def intro():
     import streamlit as st
 
     st.write("# High-throughput Drone Phenotyping Hub")
-    st.sidebar.success("Homepage")
+    st.sidebar.success("")
 
     st.markdown(
         """
@@ -39,11 +39,11 @@ with col3:
     st.image("./images/aiml.png")
     st.markdown(
         """
-        [phenotype prediction](./pages/2_Phenotype_Prediction.py)
+        [phenotype prediction](./Phenotype_Prediction)
         """
     )
     st.markdown(
         """
-        [disease identifier](./pages/3_Rice_Disease_Identifier.py)
+        [disease identifier](./Rice_Disease_Identifier)
         """
     )
