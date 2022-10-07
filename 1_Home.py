@@ -11,7 +11,7 @@ def intro():
         The hub is a collection of resources for drone images, database and image analysis using machine learning. 
         """
     )
-col1, col2, col3 = st.columns(3, gap="large")
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.header("Imagebreed")
