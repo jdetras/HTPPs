@@ -11,6 +11,9 @@ def intro():
         The hub is a collection of resources for drone images, database and image analysis using machine learning. 
         """
     )
+    
+intro()
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -36,12 +39,12 @@ with col3:
     st.image("./images/aiml.png")
     st.markdown(
         """
-        [phenotype prediction](http://localhost:8501/Phenotype_Prediction)
+        [phenotype prediction](./pages/Phenotype_Prediction)
         """
     )
     st.markdown(
         """
-        [disease identifier](http://localhost:8501/Rice_Disease_Identifier)
+        [disease identifier](./pages/Rice_Disease_Identifier)
         """
     )
 
