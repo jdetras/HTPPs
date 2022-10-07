@@ -39,13 +39,11 @@ with col3:
     st.image("./images/aiml.png")
     st.markdown(
         """
-        [phenotype prediction](./pages/Phenotype_Prediction)
+        [phenotype prediction](./Phenotype_Prediction)
         """
     )
     st.markdown(
         """
-        [disease identifier](./pages/Rice_Disease_Identifier)
+        [disease identifier](./Rice_Disease_Identifier)
         """
     )
-
-intro()
